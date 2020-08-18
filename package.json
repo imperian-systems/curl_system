@@ -1,0 +1,43 @@
+{
+  "name": "@imperian-systems/curl_system",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i; the-seed-libraries-build; the-seed-build",
+    "build-win64": "npm i; the-seed-libraries-build Win64; the-seed-build Win64"
+  },
+  "keywords": [],
+  "author": {
+    "email": "tim.schwartz@imperiansystems.com",
+    "name": "Tim Schwartz",
+    "url": "imperian.systems"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@imperian-systems/http_request_component": "0.0.1",
+    "@imperian-systems/http_response_component": "0.0.1"
+  },
+  "_dist": [
+    {
+      "path": "/usr/x86_64-w64-mingw32/bin/",
+      "file": "libcurl-4.dll"
+    },
+    {
+      "path": "/usr/x86_64-w64-mingw32/bin/",
+      "file": "libcrypto-1_1-x64.dll"
+    },
+    {
+      "path": "/usr/x86_64-w64-mingw32/bin/",
+      "file": "libssl-1_1-x64.dll"
+    },
+    {
+      "path": "/usr/x86_64-w64-mingw32/bin/",
+      "file": "zlib1.dll"
+    },
+    {
+      "path": "/usr/x86_64-w64-mingw32/bin/",
+      "file": "libwinpthread-1.dll"
+    }
+  ]
+}
