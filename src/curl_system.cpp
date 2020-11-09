@@ -69,7 +69,7 @@ void curl_system::Update()
     this->curl = curl_easy_init();
     if(!this->curl)
     {
-        throw std::runtime_error("Clairvoyance Service couldn't initialize libcurl.");
+        throw std::runtime_error("Couldn't initialize libcurl.");
     }
 
     auto Components = this->ComponentsGet();
